@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.P0972_ServiceBindServer"
         tools:targetApi="31">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,7 +24,7 @@
         </activity>
         <service
             android:permission="android.permission.BIND_TEXT_SERVICE"
-            android:name="MyService"
+            android:name=".MyService"
 
             android:exported="true">
             <intent-filter>
