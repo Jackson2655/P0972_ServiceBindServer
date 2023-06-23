@@ -24,9 +24,10 @@
         <service
             android:permission="android.permission.BIND_TEXT_SERVICE"
             android:name="MyService"
+
             android:exported="true">
             <intent-filter>
-                <action android:name="com.example.p0972servicebindserver.MyService"/>
+                <action android:name="com.example.p0972_servicebindserver.MyService"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </service>
